@@ -1,0 +1,93 @@
+@media only screen and (max-width:768px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    header .row .col-md-5 img{
+        width: 80%;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+    .numbers .rect >h1{
+        font-size: 2rem;
+    }
+    .section-3{
+        height: inherit;
+        padding: 10vmin !important;
+    }
+    .section-3 .row h1{
+        padding: 6vmin 4vmin;
+    }
+    .section-3 .col-md-6{
+       text-align: center !important;
+    }
+    .section-3 .desktop i{
+        font-size: 8vmin;
+    }
+    .section-4 .carousel-item{
+        padding-left: 0.6rem;
+    }
+    .section-4 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .section-4 .carousel-inner{
+        width: 24rem;
+        margin-left: -2rem;
+    }
+
+}
+
+@media only screen and (max-width:425px){
+    footer .row .col-md-2{
+        margin-top: 8vmin ;
+    }
+    footer .row .col-md-5 .input-group{
+        margin-left: -4vmin ;
+    }
+    footer .row .col-md-5 span{
+        font-size:; 
+    }
+    .section-4 .carousel-inner{
+        margin-left: 1.3vmin;
+    }
+  
+header .row .col-md-5 img{
+    width: 60%;
+    margin-top: -8rem;
+    padding-bottom: 2rem;
+}
+
+}
+
+@media only screen and (max-width:375px){
+    .section-4 .carousel-inner{
+        padding-right: 3rem;
+    }
+}
+@media only screen and (max-width:320px){
+    .section-4 .card{
+        width: 18rem;
+    }
+    .section-4 .carousel-inner{
+        margin-left: -7vmin;
+        width: 1;
+    }
+
+    .purchase >h1{
+   font-size: 35px;
+    font-family: var(--Rajdhani-font);
+    font-weight: 600;
+}
+}
